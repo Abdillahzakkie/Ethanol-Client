@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../images/logo.jpg";
 import "../css/style.css";
 
 function Header(props) {
@@ -8,10 +9,9 @@ function Header(props) {
       <div className="container">
         <div className="row">
           <div className="col-md-4 logo">
-            <Link to="/" className="links">
-              Logo
+            <Link to="/">
+              <img src={logo} alt="logo" />
             </Link>
-            {/* <a href="/">Logo</a> */}
           </div>
 
           <div className="col-md-8 menu_r">

@@ -6,6 +6,7 @@ import icon1 from "../images/whatis1_img.png";
 import icon2 from "../images/whatis2_img.png";
 import icon3 from "../images/whatis3_img.png";
 import icon4 from "../images/whatis4_img.png";
+
 function HomePage(props) {
   return (
     <div>
@@ -13,19 +14,29 @@ function HomePage(props) {
         <div className="container">
           <div className="row">
             <div className="col-md-7 banner1_img_t">
-              <h2>SAVE THE WORLD</h2>
-              <p>
-                Hodl
-                <span>
-                  SAVE-ETH <br />
-                  Uniswap
+              <h2>
+                CASH BACK{" "}
+                <span className="reward">
+                  REWARDS <br /> ON GAS FEES
                 </span>
+              </h2>
+              <p>
+                Hodl{" "}
+                <span>
+                  ENOL-ETH <br />
+                  UNISWAP
+                </span>{" "}
                 LP to claim 50% <br />
-                of all liquidity locks
+                OF LP REWARDS DAILY
               </p>
-              <Link to="/" className="blue_btn_nn">
-                Unlock Wallet
-              </Link>
+              <div>
+                <Link to="/" className="blue_btn_nn">
+                  Unlock Wallet
+                </Link>
+                <Link to="/" className="blue_btn_nn">
+                  WITHDRAW REWARDS
+                </Link>
+              </div>
             </div>
 
             <div className="col-md-5 banner1_img">
