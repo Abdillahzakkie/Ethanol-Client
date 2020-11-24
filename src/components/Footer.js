@@ -11,13 +11,13 @@ function Footer(props) {
             <ul>
               <li>
                 <Link to="/" className="active">
-                  SAVE-ETH
+                  ENOL-ETH
                 </Link>
               </li>
 
               <li>
                 <Link to="/" className="">
-                  SAVE
+                  ENOL
                 </Link>
               </li>
 

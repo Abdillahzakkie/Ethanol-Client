@@ -8,6 +8,8 @@ a:active {
   outline: none;
 }
 
+.hide { display: none }
+
 .clr {
   clear: both;
 }
@@ -45,7 +47,7 @@ a:active {
 .menu_r ul li a {
   color: #333;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 100px;
@@ -58,10 +60,7 @@ a:active {
 .menu_r ul li a:hover {
   color: #333;
 }
-
-.mid_block_n_c {
-}
-
+  
 .top_m_banner {
   padding: 80px 0;
   background: url("../images/main_banner_bg.jpg");
@@ -80,9 +79,12 @@ a:active {
   color: #fff;
 }
 .banner1_img_t h2 {
-  font-size: 58px;
+  font-size: 48px;
   text-transform: uppercase;
   font-weight: 700;
+}
+.reward {
+  color: #f8931d !important;
 }
 
 .banner1_img_t h2 span {
@@ -90,7 +92,7 @@ a:active {
   font-weight: 700;
 }
 .banner1_img_t p {
-  font-size: 36px;
+  font-size: 32px;
   line-height: 38px;
   margin-bottom: 15px;
   margin-top: 30px;
@@ -137,7 +139,8 @@ a.blue_btn_nn {
   margin: 38px 0px 18px 0px;
   display: inline-block;
   border: 0px;
-  font-size: 22px;
+  font-size: 18px;
+  margin-right: 1rem;
 }
 
 .our_partner {
@@ -182,8 +185,8 @@ a.blue_btn_nn {
   font-weight: 400;
   text-transform: uppercase;
 }
-.mid_block_n_c h4 {
-  font-size: 40px;
+.mid_block_n_c p {
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #122786;
@@ -231,7 +234,7 @@ a.blue_btn_nn {
 }
 
 .footer {
-  padding: 35px 5px;
+  padding: 25px 5px;
 }
 .footer ul {
   float: left;
@@ -246,7 +249,7 @@ a.blue_btn_nn {
 .footer ul li a {
   color: #333;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 100px;
