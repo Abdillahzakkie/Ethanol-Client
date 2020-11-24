@@ -1,7 +1,7 @@
 import React, { createContext, Component } from "react";
 import Web3 from 'web3';
 import { abi as _ethnolABI } from "../../contracts/Ethanol.json";
-import { abi as _ethnolVaultABI } from "../../contracts/EthanolVault.json";
+// import { abi as _ethnolVaultABI } from "../../contracts/EthanolVault.json";
 
 const web3Context = createContext();
 
